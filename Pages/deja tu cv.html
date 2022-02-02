@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilazos.css">
+    
+    <title> Electricidad Serra SRL</title>
+</head>
+<body>
+    
+<!-- se puede trabajar con container ó container-fluid -->
+    <div class="container-fluid">
+        <header class="row" id="arriba">
+             <h1 class="titleIndex"> Deja tú cv</h1>
+            
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark row"> 
+                    <div class="container-fluid">
+                        <a class="navbar-logo" href="#">
+                            <img src="/Pics/logo-ElectricidadSerra.png" alt="Logo" width="300">
+                        </a>
+                        <button class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toogle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto>
+                                <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="../pages/quienes somos.html">¿Que es Electricidad Serra?</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="../Pages/productos.html">Línea de prodcutos oficiales</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="deja tu cv.html">Déjanos tu cv</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="../pages/contactos.html">Contáctanos</a>
+                                </li>
+                                <li>
+                                    <!--Caja de búsqueda-->
+                                 <form>
+                                     <p>
+                                     <input type="search" name="buscaloquequieras" placeholder="Búsqueda">
+                                    <input type="submit" value="Buscar">
+                                     </p>    
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-outline-light"  data-bs-target="#abajo">Ir abajo</button>
+                    </div>
+                    
+               </nav>
+               </nav>
+
+        </header>
+
+        <main>
+            <form class="container">
+                <fieldset class="deja-cv row">
+                    <legend>Déjanos tu curriculum y nosotros te contactaremos</legend>
+                    <div class="nombreCompleto col-10" > 
+                        <label for="Nombre">Deja tu nombre</label>
+                        <input type="text"name="Nombre" 
+                        placeholder="Nombre completo">
+                    </div>
+                    
+                    <div class="exp col-auto" > 
+                        <label for="Años de experiencia">Experiencia</label>
+                        <input type="text"name="Que tan sabio eres" placeholder="¿Ancestral?">
+                    </div>
+                       
+                    </div>
+                    <!--Input es etiqueta para crear botones-->
+                    <div class="gener col-auto" > 
+                        <label for="Sexo">Género</label> <br>
+                        <input type="radio" name="Sexo" value="Másculino">Másculino
+                        <input type="radio"name="Sexo"value="Feménino">Feménino 
+                        <input type="radio"name="Sexo"value="Eres lo que quieres ser">Eres lo que quieres ser
+                    </div>
+                    
+                
+                    <div class="send col-auto" > 
+                        <input type="file"name="Subetucv">
+                        <input type="submit"value="Enviar">
+                        <input type="submit"value="Refrescar">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer id ="abajo" class="footerCont  container-fluid">
+            <div class="row">
+                <div class="col-1">
+            <button type="button" class="btn btn-outline-dark " id="arriba" data-bs-target="#abajo">Ir arriba</button>
+                </div>
+            </div>
+
+                <div class="footerLinks col-12">
+                    <!-- Información de importancia -->
+                    <div class="infoCont">
+                        
+                            
+                            <a href="#">Políticas de privacidad</a> 
+                            
+                            <a href="#">Haz tú pedido ó reporta una devolución</a> 
+                            
+                            <a href="#">Términos y condiciones</a>
+                            
+                    </div>
+    
+                </div>
+
+                
+                <div class="redesLink col-12">
+
+                    <div class="redesCont">
+                                <button class="insta"> 
+                                    <a href="https://www.instagram.com/" target="blank">Instagram</a> 
+                                </button>
+                                <button class="Face"> 
+                                    <a href="https://www.facebook.com/" target="blank">Facebook</a> 
+                                </button>
+                                <button class="Twitt"> 
+                                    <a href="https://twitter.com/?logout=1640379197367" target="blank">Twitter</a> 
+                                </button>
+                    </div>
+                        
+        
+                </div>
+
+              
+
+
+            <h6 class="derechos col-12 text-center">&copy;Todos los derechos reservados 2022</h6>
+        </footer>
+            
+
+    </div>
+  <!-- Link JS -->
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

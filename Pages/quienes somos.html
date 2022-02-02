@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilazos.css">
+    
+    <title> ¿Que somos?</title>
+</head>
+<body>
+    
+<!-- se puede trabajar con container ó container-fluid -->
+<div class="container-fluid">
+    <header class="row" id="arriba">
+         <h1 class="titleIndex"> ¿Ya nos conoces?</h1>
+        
+            <!-- Navbar -->
+           <nav class="navbar navbar-expand-sm navbar-dark bg-dark row"> 
+                <div class="container-fluid">
+                    <a class="navbar-logo" href="#">
+                        <img src="/Pics/logo-ElectricidadSerra.png" alt="Logo" width="300">
+                    </a>
+                    <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toogle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto>
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="quienes somos.html">¿Que es Electricidad Serra?</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="../Pages/productos.html">Línea de prodcutos oficiales</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="../Pages/ubicacion.html">Ubicación</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="../Pages/deja tu cv.html">Déjanos tu cv</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="../Pages/contactos.html">Contáctanos</a>
+                            </li>
+                            <li>
+                                <!--Caja de búsqueda-->
+                             <form>
+                                 <p>
+                                 <input type="search" name="buscaloquequieras" placeholder="Búsqueda">
+                                <input type="submit" value="Buscar">
+                                 </p>    
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-outline-light"  data-bs-target="#abajo">Ir abajo</button>
+                </div>
+                
+           </nav>
+
+
+        </header>
+        <main>
+            <h3 class="text-center">Quienes somos y que venimos a ofrecer</h3>
+
+            <p class="somos"> Somos una casa de electricidad con mas de 35 años en el rubro y en donde hemos querido ir un paso mas, siendo asi que somos el primer hypermercado eléctrico del país. </p>
+            <p class="somos">Nuestra finalidad es brindar la atención mas precisa y rápida posible, pero también buscamos que aquel cliente que se sepa manejar, pueda gestionarse por si sólo en casi un 80% de todo lo que ofrece nuestra casa, y así pueda ir directo a caja sin mayores complicaciones.</p>
+            <!--Etiqueta frame-->
+            <div class="videoSerra">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Ute59a7oyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </main>
+
+        <footer id = "abajo" class="footerCont container-fluid">
+            <div class="row">
+                <div class="col-1">
+            <button type="button" class="btn btn-outline-dark " id="arriba" data-bs-target="#abajo">Ir arriba</button>
+                </div>
+            </div>
+
+
+                <div class="footerLinks col-12">
+                    <!-- Información de importancia -->
+                    <div class="infoCont">
+                        
+                            
+                            <a href="">Políticas de privacidad</a> 
+                            
+                            <a href="">Haz tú pedido ó reporta una devolución</a> 
+                            
+                            <a href="">Términos y condiciones</a>
+                            
+                    </div>
+    
+                </div>
+
+                
+                <div class="redesLink col-12">
+
+                    <div class="redesCont">
+                                <button class="insta"> 
+                                    <a href="https://www.instagram.com/" target="blank">Instagram</a> 
+                                </button>
+                                <button class="Face"> 
+                                    <a href="https://www.facebook.com/" target="blank">Facebook</a> 
+                                </button>
+                                <button class="Twitt"> 
+                                    <a href="https://twitter.com/?logout=1640379197367" target="blank">Twitter</a> 
+                                </button>
+                    </div>
+                        
+        
+                </div>
+
+              
+
+
+            <h6 class="derechos col-12 text-center">&copy;Todos los derechos reservados 2022</h6>
+        </footer>
+            </section>
+
+    </div>
+  <!-- Link JS -->
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Supermercado+One&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/estilazos.css">
+    
+    <title> Electricidad Serra SRL</title>
+</head>
+<body>
+    
+<!-- se puede trabajar con container ó container-fluid -->
+    <div class="container-fluid">
+        <header class="row" id="arriba">
+             <h1 class="titleIndex"> <span> Bienvenidos</span> a SerraLandia</h1>
+            
+                <!-- Navbar -->
+               <nav class="navbar navbar-expand-sm navbar-dark bg-dark row"> 
+                    <div class="container-fluid">
+                        <a class="navbar-logo" href="#">
+                            <img src="/Pics/logo-ElectricidadSerra.png" alt="Logo" width="300">
+                        </a>
+                        <button class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toogle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto>
+                                <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="Pages/quienes somos.html">¿Que es Electricidad Serra?</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="Pages/productos.html">Línea de prodcutos oficiales</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="Pages/ubicacion.html">Ubicación</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="Pages/deja tu cv.html">Déjanos tu cv</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="Pages/contactos.html">Contáctanos</a>
+                                </li>
+                                <li>
+                                    <!--Caja de búsqueda-->
+                                 <form>
+                                     <p>
+                                     <input type="search" name="buscaloquequieras" placeholder="Búsqueda">
+                                    <input type="submit" value="Buscar">
+                                     </p>    
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-outline-light"  data-bs-target="#abajo">Ir abajo</button>
+                    </div>
+                    
+               </nav>
+
+                
+               
+        </header>
+
+        <main class="container">
+            <!-- Carrousel -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                <div class="carousel-inner row">
+                    <div class="carousel-item active">
+                        <img src="Pics/slide1-1.jpg" alt="#" class="d-block w-100  ">
+                        <div class="carousel-caption d-none d-md-block  w-100 h-100">
+                            <h5>Trabajo en equipo </h5>
+                            <p class="pCarousel">Trabajamos arduamente para ofrecerte una gran atención y productos de calidad.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Pics/slide2.png" alt="#" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block  w-100 h-100">
+                            <h5>Formamos parte de tus proyectos eléctricos </h5>
+                            <p class="pCarousel">¿Necesitas que estemos en una obra facilitando material y asesoramiento? <span class="tTengo"> Te lo tengo</span>.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Pics/slide3.png" alt="#" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block  w-100 h-100">
+                            <h5>Marcas que encantan </h5>
+                           
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Pics/slide4.png" alt="#" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block w-100 h-100 ">
+                            <h5 class="text-center">Resolvemos todas tus dudas </h5>
+                            <p class="pCarousel">¿No sabes por donde empezar? <span class="estamos">No te preocupes que para eso estamos.</span> </p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+                
+               
+            </div>
+                <div class="divResponsive">
+                    <p class="somos">
+                    Tenemos una vasta experiencia en el rubro eléctrico y siempre tratamos de estar a la vanguardia en lo que a materiales se refiere.
+                    </p>
+            
+                    <p class="somos">
+                    Nuestros productos ofrecen el mas alto standard pasando todas las pruebas y poder estar en el mercado con la mayor fiabilidad y siendo respaldados por las marcas mas importantes dentro del rubro. Es por ello que queremos ofrecer la mejor calidad en cuanto a productos, sumado a unos precios competitivos y asequibles dentro del mercado.
+                    </p>
+                </div>
+                    <section class="container">
+                <div class="efecto">     
+                    <div class="caja">
+                    Tenemos las térmicas de mejor calidad.
+                    </div>
+                </div> 
+                <div class="efecto2">
+                    <div class="caja2">
+                        Lámpara de fondo
+                    </div>
+                </div> 
+                    </section>
+                    <section class="cumpleSerra container-fluid">
+                        <div class="banner row">
+                            <img src="./Pics/serralandia 35 años.png" alt="35 años Serra" class="col-12-expanded ml-auto">
+                        </div>
+                    </section>
+        </main>
+
+        <footer id = abajo class="footerCont container-fluid ">
+                <div class="row">
+                    <div class="col-1">
+                <button type="button" class="btn btn-outline-dark " data-bs-target="#arriba">Ir arriba</button>
+                    </div>
+                </div>
+
+
+                <div class="footerLinks col-12">
+                    <!-- Información de importancia -->
+                    <div class="infoCont">
+                        
+                            
+                            <a href="">Políticas de privacidad</a> 
+                            
+                            <a href="">Haz tú pedido ó reporta una devolución</a> 
+                            
+                            <a href="">Términos y condiciones</a>
+                            
+                    </div>
+    
+                </div>
+
+                
+                <div class="redesLink col-12">
+
+                    <div class="redesCont">
+                                <button class="insta"> 
+                                    <a href="https://www.instagram.com/" target="blank">Instagram</a> 
+                                </button>
+                                <button class="Face"> 
+                                    <a href="https://www.facebook.com/" target="blank">Facebook</a> 
+                                </button>
+                                <button class="Twitt"> 
+                                    <a href="https://twitter.com/?logout=1640379197367" target="blank">Twitter</a> 
+                                </button>
+                    </div>
+                        
+        
+                </div>
+
+              
+
+
+            <h6 class="derechos col-12 text-center">&copy;Todos los derechos reservados 2022</h6>
+        </footer>
+           
+
+    </div>
+
+    <!-- Link JS -->
+    <script src="/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
